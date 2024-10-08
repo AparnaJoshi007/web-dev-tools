@@ -1,6 +1,6 @@
 'use client';
 import { ContentBody, ContentHeader, ContentWrapper } from "@/components/contentWrapper/ContentWrapper";
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useCallback} from "react";
 import { PageWrapper } from "@/components/pageWrapper/PageWrapper";
 import {
   Divider,
@@ -21,11 +21,7 @@ export const PasswordGenerator = () => {
   const [includeSpecialChars, setIncludeSpecialChars] = useState<boolean>(true);
   const [generatedPassword, setGeneratedPassword] = useState<string>('');
 
-  useEffect(() => {
-    generatePassword();
-  }, [length, includeNumbers, includeSpecialChars]);
-
-  const generatePassword = () => {
+  const generatePassword = useCallback(() => {
     const chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const numbers = '0123456789'; // Numbers
     const specialChars = '!@#$%^&*()_+[]{}|;:,.<>?'; // Special characters
@@ -46,7 +42,11 @@ export const PasswordGenerator = () => {
     }
 
     setGeneratedPassword(password);
-  };
+  }, [includeNumbers, includeSpecialChars, length]);
+
+  useEffect(() => {
+    generatePassword();
+  }, [length, includeNumbers, includeSpecialChars, generatePassword]);
 
   return (
     <PageWrapper>
