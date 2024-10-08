@@ -1,0 +1,21 @@
+.contentWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.contentHeader {
+    padding: 40px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.contentBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0 0 40px 0;
+}
