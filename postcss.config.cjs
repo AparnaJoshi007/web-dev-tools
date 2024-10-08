@@ -1,6 +1,7 @@
 module.exports = {
     plugins: {
         'postcss-preset-mantine': {},
+        'postcss-preset-env': {},
         'postcss-simple-vars': {
             variables: {
                 'mantine-breakpoint-xs': '36em',
