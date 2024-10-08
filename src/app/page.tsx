@@ -4,6 +4,7 @@ import React from "react";
 import {Navigation} from "@/data/navigation";
 import {Card} from "@mantine/core";
 import Link from "next/link";
+import '@mantine/core/styles.css';
 
 export default function Home() {
   return (

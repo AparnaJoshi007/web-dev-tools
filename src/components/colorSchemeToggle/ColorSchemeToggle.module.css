@@ -3,22 +3,19 @@
     height: 22px;
 }
 
-.dark {
-    @mixin dark {
-        display: none;
-    }
-
-    @mixin light {
-        display: block;
-    }
+[data-mantine-color-scheme='light'] .dark {
+    display: block;
 }
 
-.light {
-    @mixin light {
-        display: none;
-    }
+[data-mantine-color-scheme='dark'] .dark {
+    display: none;
+}
 
-    @mixin dark {
-        display: block;
-    }
+[data-mantine-color-scheme='light'] .light {
+    display: none;
+}
+
+
+[data-mantine-color-scheme='dark'] .light {
+    display: block;
 }
