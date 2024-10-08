@@ -127,7 +127,7 @@ export const UUIDGenerator = () => {
 
             {/* Generate and Refresh Button */}
             <Group>
-              <Button onClick={generateUUID} disabled={loading || (uuidVersion !== '1' && !namespace && !name)}>
+              <Button onClick={generateUUID} disabled={loading || ((uuidVersion === '3' || uuidVersion === '5')  && !namespace && !name)}>
                 {loading ? <Loader size="xs" /> : "Generate UUID"}
               </Button>
             </Group>
