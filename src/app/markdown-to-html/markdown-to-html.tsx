@@ -14,7 +14,7 @@ export const MarkdownToHtmlConverter = () => {
   useEffect(() => {
     try {
       const result = marked(markdownInput);
-      setHtmlOutput(result);
+      setHtmlOutput(result as string);
       setError(null);
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (e) {
