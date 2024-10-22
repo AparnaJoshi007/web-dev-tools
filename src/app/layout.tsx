@@ -5,7 +5,7 @@ import React from "react";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-  title: 'Web dev tools override',
+  title: 'Web dev tools',
   description: 'A collection of web development tools',
   keywords: 'converter, generator, yaml, json',
   authors: [{ name: 'Saliene Katana'}]
