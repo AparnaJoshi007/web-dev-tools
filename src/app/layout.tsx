@@ -20,20 +20,23 @@ export default function RootLayout({
     <html lang="en">
     <head>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-FNBFT2CK05"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-FNBFT2CK05');
-      </script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-FNBFT2CK05');
+          `,
+        }}
+      />
       <ColorSchemeScript/>
       <meta charSet="UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
     </head>
     <body>
-      <MantineProvider defaultColorScheme={'dark'} theme={theme}>{children}</MantineProvider>
+    <MantineProvider defaultColorScheme={'dark'} theme={theme}>{children}</MantineProvider>
     </body>
     </html>
   );
