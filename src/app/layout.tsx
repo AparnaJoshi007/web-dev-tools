@@ -30,6 +30,7 @@ export default function RootLayout({
           `,
         }}
       />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8266307118119656" crossOrigin="anonymous"></script>
       <ColorSchemeScript/>
       <meta charSet="UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
