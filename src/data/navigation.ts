@@ -12,13 +12,13 @@ export const Navigation: NavigationType[] = [
     items: [
       {
         label: 'Date-time Converter',
-        slug: '/date-time',
+        slug: '/date-time-converter',
         description: 'Convert date-time between different formats',
         icon: CiCalendarDate
       },
       {
         label: 'Base64 string encoder/decoder',
-        slug: '/base64-string-converter',
+        slug: '/base64-string-encoder-decoder',
         description: 'Encode or decode base64 string',
         icon: VscFileBinary
       },
@@ -36,7 +36,7 @@ export const Navigation: NavigationType[] = [
       },
       {
         label: 'Color converter',
-        slug: '/color-converter',
+        slug: '/color-format-converter',
         description: 'Convert color between different formats',
         icon: IoMdColorPalette
       }

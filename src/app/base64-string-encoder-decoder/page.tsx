@@ -1,4 +1,4 @@
-import {Base64StringConverter} from "@/app/base64-string-converter/base64-string-converter";
+import {Base64StringEncoderDecoder} from "@/app/base64-string-encoder-decoder/base64-string-encoder-decoder";
 import {Metadata} from "next";
 import React from "react";
 
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const Base64StringConverterPage: React.FC = () => {
   return (
-    <Base64StringConverter />
+    <Base64StringEncoderDecoder />
   );
 }
 

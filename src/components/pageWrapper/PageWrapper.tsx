@@ -1,7 +1,7 @@
 'use client';
 
 import {useDisclosure} from "@mantine/hooks";
-import {AppShell, Burger, Group, Text} from "@mantine/core";
+import {AppShell, Burger, Group, NavLink, Text} from "@mantine/core";
 import {SideBar} from "@/components/sideBar/SideBar";
 import React from "react";
 import {ColorSchemeToggle} from "@/components/colorSchemeToggle/ColorSchemeToggle";
@@ -14,6 +14,7 @@ export const PageWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <AppShell
       header={{ height: 64 }}
+      footer={{ height: 64 }}
       navbar={{
         width: 250,
         breakpoint: 'sm',
@@ -44,6 +45,18 @@ export const PageWrapper = ({ children }: { children: React.ReactNode }) => {
       </AppShell.Navbar>
 
       <AppShell.Main>{children}</AppShell.Main>
+      <AppShell.Footer p={"md"}>
+        <Group justify={'space-between'}>
+          <Text>© {new Date().getFullYear()} Web dev tools</Text>
+          <Group justify={'space-between'}>
+              <a href={'/about'}>About</a>
+              <a href={'/contact'}>Contact</a>
+              <a href={'/privacy-policy'}>Privacy Policy</a>
+              <a href={'/disclaimer'}>Disclaimer</a>
+              <a href={'/terms-of-services'}>Terms of Services</a>
+          </Group>
+        </Group>
+      </AppShell.Footer>
     </AppShell>
   )
 }

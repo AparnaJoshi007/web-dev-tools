@@ -7,7 +7,7 @@ import {MdCheck, MdOutlineContentCopy} from "react-icons/md";
 
 type SelectedValue = 'STRING_TO_BASE64' | 'BASE64_TO_STRING';
 
-export const Base64StringConverter = () => {
+export const Base64StringEncoderDecoder = () => {
   const [selectedValue, setSelectedValue] = useState<SelectedValue>('STRING_TO_BASE64');
   const [inputValue, setInputValue] = useState<string>('');
   const [outputValue, setOutputValue] = useState<string>('');

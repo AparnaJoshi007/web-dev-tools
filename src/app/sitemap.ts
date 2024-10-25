@@ -9,13 +9,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: 'https://allwebstools.com/date-time',
+      url: 'https://allwebstools.com/date-time-converter',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://allwebstools.com/base64-string-converter',
+      url: 'https://allwebstools.com/base64-string-encoder-decoder',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: 'https://allwebstools.com/color-converter',
+      url: 'https://allwebstools.com/color-format-converter',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,

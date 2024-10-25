@@ -1,4 +1,4 @@
-import {DateTimeConverter} from "@/app/date-time/date-time";
+import {DateTimeConverter} from "@/app/date-time-converter/date-time-converter";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {

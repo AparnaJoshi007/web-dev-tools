@@ -1,4 +1,4 @@
-import { ColorFormatConverter } from "@/app/color-converter/color-converter";
+import { ColorFormatConverter } from "@/app/color-format-converter/color-format-converter";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
