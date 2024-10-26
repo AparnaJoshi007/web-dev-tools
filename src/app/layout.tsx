@@ -7,8 +7,20 @@ import {Metadata} from "next";
 export const metadata: Metadata = {
   title: 'Web dev tools',
   description: 'A collection of web development tools',
-  keywords: 'converter, generator, yaml, json',
-  authors: [{ name: 'Saliene Katana'}]
+  keywords: 'converter, genearator, yaml, json',
+  authors: [{ name: 'Saliene Katana'}],
+  icons: {
+    icon: '/assets/icons/icon.png',
+    apple: '/assets/icons/icon.png',
+  },
+  openGraph: {
+    type: "website",
+    url: "https://allwebstools.com/",
+    title: "Web dev tools",
+    description: "A collection of web development tools",
+    siteName: "Web dev tools",
+    images: [{ url: "https://allwebstools.com/assets/icons/icon.png" }],
+  }
 }
 
 export default function RootLayout({
@@ -34,9 +46,10 @@ export default function RootLayout({
               crossOrigin="anonymous"></script>
       <ColorSchemeScript/>
       <meta charSet="UTF-8"/>
+      <meta name="google-adsense-account" content="ca-pub-8266307118119656"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
-      <meta name="google-adsense-account" content="ca-pub-8266307118119656"/>
+
     </head>
     <body>
     <MantineProvider defaultColorScheme={'dark'} theme={theme}>{children}</MantineProvider>
