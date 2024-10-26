@@ -30,11 +30,13 @@ export default function RootLayout({
           `,
         }}
       />
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8266307118119656" crossOrigin="anonymous"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8266307118119656"
+              crossOrigin="anonymous"></script>
       <ColorSchemeScript/>
       <meta charSet="UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
+      <meta name="google-adsense-account" content="ca-pub-8266307118119656"/>
     </head>
     <body>
     <MantineProvider defaultColorScheme={'dark'} theme={theme}>{children}</MantineProvider>
