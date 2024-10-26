@@ -16,7 +16,7 @@ const PrivacyPolicyPage: React.FC = () => {
         <ContentBody>
           <>
             <p>
-              This privacy policy ("policy") will help you understand how Web dev tools ("us", "we", "our") uses and protects the data you provide to us when you visit and use Web dev tools ("website", "service").
+              This privacy policy (&#34;policy&#34;) will help you understand how Web dev tools (&#34;us&#34;, &#34;we&#34;, &#34;our&#34;) uses and protects the data you provide to us when you visit and use Web dev tools (&#34;website&#34;, &#34;service&#34;).
               This policy describes the data we collect, how we use that data, and the choices we offer, including how to access and update information.
             </p>
 
@@ -24,8 +24,8 @@ const PrivacyPolicyPage: React.FC = () => {
             <p>
               We use Google Ads and Google Analytics to help analyze how users use the site and to display advertisements. These services use cookies and other tracking technologies to collect data about your interactions with our website.
               The data collected by Google Analytics is used to analyze and improve the performance of our website. The data collected by Google Ads is used to display personalized advertisements based on your interests and browsing behavior.
-              You can opt-out of Google Analytics by installing the Google Analytics opt-out browser add-on. You can also opt-out of personalized ads by visiting Google's Ads Settings.
-              For more information on Google's privacy practices, please visit the Google Privacy & Terms web page: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
+              You can opt-out of Google Analytics by installing the Google Analytics opt-out browser add-on. You can also opt-out of personalized ads by visiting Google&#39;s Ads Settings.
+              For more information on Google&#39;s privacy practices, please visit the Google Privacy & Terms web page: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
             </p>
           </>
         </ContentBody>

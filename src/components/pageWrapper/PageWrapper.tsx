@@ -1,7 +1,7 @@
 'use client';
 
 import {useDisclosure} from "@mantine/hooks";
-import {AppShell, Burger, Group, NavLink, Text} from "@mantine/core";
+import {AppShell, Burger, Group, Text} from "@mantine/core";
 import {SideBar} from "@/components/sideBar/SideBar";
 import React from "react";
 import {ColorSchemeToggle} from "@/components/colorSchemeToggle/ColorSchemeToggle";
@@ -14,7 +14,7 @@ export const PageWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <AppShell
       header={{ height: 64 }}
-      footer={{ height: 64 }}
+      footer={{ height: { base: 128, xs: 64, md: 64, lg: 64 } }}
       navbar={{
         width: 250,
         breakpoint: 'sm',

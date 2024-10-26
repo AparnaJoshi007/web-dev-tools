@@ -15,7 +15,7 @@ import {
   isTimestamp,
   isUnixTimestamp,
   isUtcDateString
-} from "@/app/date-time/validator";
+} from "@/app/date-time-converter/validator";
 
 const DateFormats: DateFormat[] = [{
   name: 'ISO 8601',
