@@ -6,7 +6,7 @@ import {Metadata} from "next";
 
 export const metadata: Metadata = {
   title: 'Web dev tools',
-  description: 'A collection of web development tools',
+  description: 'A collection of web development tools such as JSON to YAML converter, YAML to JSON converter, and more. To be used by web developers and web designers.',
   keywords: 'converter, genearator, yaml, json',
   authors: [{ name: 'Saliene Katana'}],
   icons: {
