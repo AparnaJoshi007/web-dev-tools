@@ -16,7 +16,7 @@ const algorithms = [
 export const EncryptDecryptText = () => {
   const [text, setText] = useState('');
   const [key, setKey] = useState('');
-  const [algorithm, setAlgorithm] = useState('AES');
+  const [algorithm, setAlgorithm] = useState<string | null>('AES');
   const [encryptedText, setEncryptedText] = useState('');
   const [decryptedText, setDecryptedText] = useState('');
 
