@@ -7,6 +7,7 @@ import React from "react";
 import {ColorSchemeToggle} from "@/components/colorSchemeToggle/ColorSchemeToggle";
 import Link from "next/link";
 import { BsTools } from "react-icons/bs";
+import CookieConsent from "react-cookie-consent";
 
 export const PageWrapper = ({ children }: { children: React.ReactNode }) => {
   const [opened, {toggle}] = useDisclosure();
@@ -57,6 +58,15 @@ export const PageWrapper = ({ children }: { children: React.ReactNode }) => {
           </Group>
         </Group>
       </AppShell.Footer>
+      <CookieConsent
+        location="bottom"
+        buttonText="I understand"
+        cookieName="webdevtools-cookie"
+        buttonStyle={{ background: "#da77f2", fontSize: "13px" }}
+        expires={150}
+      >
+        This website uses cookies to enhance the user experience.{" "}
+      </CookieConsent>
     </AppShell>
   )
 }
