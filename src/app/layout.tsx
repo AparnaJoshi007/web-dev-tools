@@ -45,7 +45,6 @@ export default function RootLayout({
       />
       <ColorSchemeScript/>
       <meta charSet="UTF-8"/>
-      <meta name="google-adsense-account" content="ca-pub-8266307118119656"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
     </head>
