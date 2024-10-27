@@ -20,10 +20,10 @@ const PrivacyPolicyPage: React.FC = () => {
               This policy describes the data we collect, how we use that data, and the choices we offer, including how to access and update information.
             </p>
 
-            <h3>Google Ads and Google Analytics</h3>
+            <h3>Ads and Google Analytics</h3>
             <p>
-              We use Google Ads and Google Analytics to help analyze how users use the site and to display advertisements. These services use cookies and other tracking technologies to collect data about your interactions with our website.
-              The data collected by Google Analytics is used to analyze and improve the performance of our website. The data collected by Google Ads is used to display personalized advertisements based on your interests and browsing behavior.
+              We use Ads and Google Analytics to help analyze how users use the site and to display advertisements. These services use cookies and other tracking technologies to collect data about your interactions with our website.
+              The data collected by Google Analytics is used to analyze and improve the performance of our website. The data collected by Ads is used to display personalized advertisements based on your interests and browsing behavior.
               You can opt-out of Google Analytics by installing the Google Analytics opt-out browser add-on. You can also opt-out of personalized ads by visiting Google&#39;s Ads Settings.
               For more information on Google&#39;s privacy practices, please visit the Google Privacy & Terms web page: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
             </p>
