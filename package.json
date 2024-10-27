@@ -14,6 +14,7 @@
     "@mantine/form": "^7.12.2",
     "@mantine/hooks": "^7.12.2",
     "color": "^4.2.3",
+    "crypto-js": "^4.2.0",
     "dayjs": "^1.11.13",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",

@@ -1,5 +1,5 @@
 import type {Navigation as NavigationType} from "@/types/navigation";
-import {CiCalendarDate, CiTextAlignLeft} from "react-icons/ci";
+import {CiCalendarDate, CiMobile3, CiTextAlignLeft} from "react-icons/ci";
 import {VscFileBinary} from "react-icons/vsc";
 import {IoMdColorPalette} from "react-icons/io";
 import {PiBracketsAngleBold, PiBracketsCurly} from "react-icons/pi";
@@ -97,6 +97,16 @@ export const Navigation: NavigationType[] = [
         slug: '/markdown-to-html',
         description: 'Convert markdown to HTML',
         icon: PiBracketsAngleBold
+      }
+    ]
+  }, {
+    group: 'Cryptography Tools',
+    items: [
+      {
+        label: 'Encrypt/Decrypt Text',
+        slug: '/encrypt-decrypt-text',
+        description: 'Encrypt and decrypt text using various algorithms',
+        icon: TbPasswordFingerprint
       }
     ]
   }
