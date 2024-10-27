@@ -47,7 +47,7 @@ export default function RootLayout({
       <meta name="google-adsense-account" content="ca-pub-8266307118119656"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
-
+      <script src="https://alwingulla.com/88/tag.min.js" data-zone="110655" async data-cfasync="false"></script>
     </head>
     <body>
     <MantineProvider defaultColorScheme={'dark'} theme={theme}>{children}</MantineProvider>
