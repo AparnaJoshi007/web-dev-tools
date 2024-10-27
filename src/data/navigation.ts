@@ -1,5 +1,5 @@
 import type {Navigation as NavigationType} from "@/types/navigation";
-import {CiCalendarDate, CiMobile3, CiTextAlignLeft} from "react-icons/ci";
+import {CiCalendarDate, CiTextAlignLeft} from "react-icons/ci";
 import {VscFileBinary} from "react-icons/vsc";
 import {IoMdColorPalette} from "react-icons/io";
 import {PiBracketsAngleBold, PiBracketsCurly} from "react-icons/pi";
