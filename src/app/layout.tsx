@@ -48,8 +48,7 @@ export default function RootLayout({
       <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
     </head>
     <body>
-      <script src="https://alwingulla.com/88/tag.min.js" data-zone="110655" async data-cfasync="false"></script>
-      <MantineProvider defaultColorScheme={'dark'} theme={theme}>{children}</MantineProvider>
+    <MantineProvider defaultColorScheme={'dark'} theme={theme}>{children}</MantineProvider>
     </body>
     </html>
   );
