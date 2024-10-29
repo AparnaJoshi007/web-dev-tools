@@ -31,7 +31,6 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
-      <script src="https://alwingulla.com/88/tag.min.js" data-zone="110655" async data-cfasync="false"></script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-FNBFT2CK05"></script>
       <script
         dangerouslySetInnerHTML={{
@@ -49,7 +48,8 @@ export default function RootLayout({
       <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
     </head>
     <body>
-    <MantineProvider defaultColorScheme={'dark'} theme={theme}>{children}</MantineProvider>
+      <script src="https://alwingulla.com/88/tag.min.js" data-zone="110655" async data-cfasync="false"></script>
+      <MantineProvider defaultColorScheme={'dark'} theme={theme}>{children}</MantineProvider>
     </body>
     </html>
   );
