@@ -5,7 +5,7 @@ import React from "react";
 export const metadata: Metadata = {
   title: 'Base64 to string encoder/decoder',
   description: 'Encode or decode base64 string',
-  keywords: 'base64, string, encoder, decoder'
+  keywords: 'base64, string, encoder, decoder, converter, web, data, format, atob, btoa'
 }
 
 const Base64StringConverterPage: React.FC = () => {

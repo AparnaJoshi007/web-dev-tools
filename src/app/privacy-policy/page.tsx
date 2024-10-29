@@ -2,6 +2,13 @@ import {ContentHeader, ContentWrapper, ContentBody} from "@/components/contentWr
 import {PageWrapper} from "@/components/pageWrapper/PageWrapper";
 import {Divider, Title} from "@mantine/core";
 import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy',
+  description: 'Privacy policy for web dev tools',
+  keywords: 'privacy, policy, data, information, google, analytics, ads'
+}
 
 const PrivacyPolicyPage: React.FC = () => {
   return (

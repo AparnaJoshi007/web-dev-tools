@@ -2,6 +2,13 @@ import {ContentHeader, ContentWrapper, ContentBody} from "@/components/contentWr
 import {PageWrapper} from "@/components/pageWrapper/PageWrapper";
 import {Divider, Title} from "@mantine/core";
 import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: 'Terms of Services',
+  description: 'Terms of services for web dev tools',
+  keywords: 'terms, services, agreement, license, limitation, liability, governing, law'
+}
 
 const TermsOfServicesPage: React.FC = () => {
   return (

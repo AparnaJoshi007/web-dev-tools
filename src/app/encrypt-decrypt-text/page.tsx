@@ -4,7 +4,7 @@ import {EncryptDecryptText} from "@/app/encrypt-decrypt-text/encrypt-decrypt-tex
 export const metadata: Metadata = {
   title: 'Encrypt and decrypt text',
   description: 'Encrypt and decrypt text using various algorithms such as AES, DES, and more',
-  keywords: 'encrypt, decrypt, text, string, AES, DES, RSA'
+  keywords: 'encrypt, decrypt, text, string, AES, DES, RSA, encipher, decipher, algorithm, rabbit'
 }
 
 const EncryptDecryptTextPage = () => {

@@ -4,7 +4,7 @@ import {Metadata} from "next";
 export const metadata: Metadata = {
   title: 'QR code generator',
   description: 'Generate QR code from text',
-  keywords: 'qr, code, generator, text'
+  keywords: 'qr, code, generator, text, square, color, link, low, medium, quartile, high, transparent'
 }
 
 const QRCodeGeneratorPage: React.FC = () => {

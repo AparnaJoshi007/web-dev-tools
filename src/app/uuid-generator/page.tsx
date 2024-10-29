@@ -4,7 +4,7 @@ import {Metadata} from "next";
 export const metadata: Metadata = {
   title: 'UUID generator',
   description: 'Generate random UUID of desired version',
-  keywords: 'uuid, generator, random'
+  keywords: 'uuid, generator, random, id, alphanumeric, identity, token, string, identifier, unique, v1, v3, v4, v5, nil'
 }
 
 const UUidGeneratorPage = () => {

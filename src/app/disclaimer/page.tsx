@@ -2,6 +2,13 @@ import {ContentHeader, ContentWrapper, ContentBody} from "@/components/contentWr
 import {PageWrapper} from "@/components/pageWrapper/PageWrapper";
 import {Divider, Title} from "@mantine/core";
 import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: 'Disclaimer',
+  description: 'Disclaimer for web dev tools',
+  keywords: 'disclaimer, web, tools, information, general, liability, loss, damage, reliance, risk, third party, links'
+}
 
 const DisclaimerPage: React.FC = () => {
   return (

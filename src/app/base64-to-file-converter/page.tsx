@@ -4,7 +4,7 @@ import {Metadata} from "next";
 export const metadata: Metadata = {
   title: 'Base64 to file converter',
   description: 'Convert valid base64 string to file',
-  keywords: 'base64, file, encoder, convert'
+  keywords: 'base64, file, encoder, converter, upload, image, web, data, format'
 }
 
 const Base64ToFileConverterPage = () => {

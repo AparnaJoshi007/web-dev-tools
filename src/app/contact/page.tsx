@@ -2,6 +2,14 @@ import {ContentHeader, ContentWrapper, ContentBody} from "@/components/contentWr
 import {PageWrapper} from "@/components/pageWrapper/PageWrapper";
 import {Divider, Title} from "@mantine/core";
 import React from "react";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: 'Contact Us',
+  description: 'Contact us for any queries or suggestions',
+  keywords: 'contact, email, message, query, suggestion'
+}
+
 
 const ContactPage: React.FC = () => {
   return (
